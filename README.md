@@ -77,7 +77,7 @@ of their own.
 ## Testing
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
 
 77 tests, 3260 assertions. Two closed-loop convergence tests

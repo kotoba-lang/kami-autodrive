@@ -4,7 +4,7 @@
   Sensor fusion: lidar and a forward depth camera each see a different wall;
   only fusing both (`step-multimodal`) lets the car avoid both and reach the
   goal."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

@@ -3,7 +3,7 @@
 
   Camera-only reactive reflex: a depth camera (no lidar) drives the
   emergency stop."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

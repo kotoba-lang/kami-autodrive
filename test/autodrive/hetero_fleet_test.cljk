@@ -5,7 +5,7 @@
   (hydrodynamic) share one world and reach their goals without colliding —
   each a different plant, all driven by the same autopilot and coordinated
   by the fleet's priority right-of-way."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

@@ -3,7 +3,7 @@
 
   Dynamic-obstacle avoidance: an autonomous car yields to a box that crosses
   its path, then proceeds to the goal once it clears."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

@@ -3,7 +3,7 @@
 
   Scale test: an autonomous car navigates a realistic multi-building street
   grid from one corner to the far corner, weaving through the streets."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

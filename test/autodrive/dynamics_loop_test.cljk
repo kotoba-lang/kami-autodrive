@@ -4,7 +4,7 @@
   Closed-loop tests for the high-fidelity non-car plants: the same autopilot
   drives a hydrodynamic ship, an aerodynamic fixed-wing, and a rotor-thrust
   multirotor to their goals, and we assert physically meaningful behaviour."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

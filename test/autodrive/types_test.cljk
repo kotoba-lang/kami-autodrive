@@ -1,6 +1,6 @@
 (ns autodrive.types-test
   "Ported 1:1 from `kami-autodrive`'s `src/types.rs` `#[cfg(test)] mod tests`."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.types :as t]
             [autodrive.geom :as g]))
 

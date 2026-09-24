@@ -4,7 +4,7 @@
   Robustness: the autonomy must still navigate when the lidar is noisy.
   Deterministic per-beam range noise is injected each tick; the occupancy
   grid + configuration-space inflation should absorb the jitter."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

@@ -3,7 +3,7 @@
 
   Determinism guard: identical inputs must produce a bit-identical trajectory
   every run."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

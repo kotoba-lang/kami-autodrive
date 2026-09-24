@@ -4,7 +4,7 @@
   original crate's `kami-sensor-sim` dependency (not part of the original
   Rust `#[test]` suite — the original tests exercised this indirectly
   through `kami-sensor-sim` itself)."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.sensor-sim :as sim]))

@@ -6,7 +6,7 @@
   bicycle-model and runs the autopilot until arrival, proving the full
   perception -> planning -> control loop reaches a goal and avoids
   obstacles."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

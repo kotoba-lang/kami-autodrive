@@ -4,7 +4,7 @@
   Defensive behaviour under degenerate inputs: goal-at-start, no goal, an
   unreachable goal, and numerical finiteness. A mature autonomy layer must
   degrade to a safe stop — never panic, NaN, or drive into an obstacle."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

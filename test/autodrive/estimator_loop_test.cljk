@@ -3,7 +3,7 @@
 
   Dead-reckoning robustness: a state estimator integrates noisy IMU between
   sparse absolute fixes."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

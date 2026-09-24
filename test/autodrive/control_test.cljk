@@ -1,6 +1,6 @@
 (ns autodrive.control-test
   "Ported 1:1 from `kami-autodrive`'s `src/control.rs` `#[cfg(test)] mod tests`."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.control :as c]))

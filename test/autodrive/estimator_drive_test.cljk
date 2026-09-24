@@ -4,7 +4,7 @@
   End-to-end localisation robustness: the car drives autonomously on its
   estimated pose (IMU dead-reckoning between sparse absolute fixes), not the
   ground truth, and still routes around a wall to the goal."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

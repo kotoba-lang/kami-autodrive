@@ -4,7 +4,7 @@
   Physical-invariant checks on the dynamics plants — that they obey the laws
   they claim, not merely that the autopilot can reach a goal with them.
   Open-loop (no autopilot): constant command, measure the steady state."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

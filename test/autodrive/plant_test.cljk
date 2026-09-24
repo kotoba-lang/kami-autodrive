@@ -1,6 +1,6 @@
 (ns autodrive.plant-test
   "Ported 1:1 from `kami-autodrive`'s `src/plant.rs` `#[cfg(test)] mod tests`."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.types :as t]
             [autodrive.classes :as classes]
             [autodrive.plant :as plant]))

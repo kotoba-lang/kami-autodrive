@@ -8,7 +8,7 @@
   It handles a moving crossing and a stopped/parked agent. The hard case —
   two agents head-on in the same lane — still needs active lane discipline /
   negotiation and is out of scope here."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

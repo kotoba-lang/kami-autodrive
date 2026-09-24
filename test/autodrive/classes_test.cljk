@@ -1,6 +1,6 @@
 (ns autodrive.classes-test
   "Ported 1:1 from `kami-autodrive`'s `src/classes.rs` `#[cfg(test)] mod tests`."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.classes :as c]))
 
 (deftest every-class-has-sane-positive-limits

@@ -4,7 +4,7 @@
   Fixed-wing loiter: a non-stopping aircraft can't capture a point inside its
   turn radius, so it flies to the waypoint and loiters over it — reaching
   \"on station\" and holding there indefinitely."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

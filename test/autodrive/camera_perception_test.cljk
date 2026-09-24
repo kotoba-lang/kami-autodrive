@@ -3,7 +3,7 @@
 
   Camera-only autonomy: a car perceives a wall with a forward-facing depth
   camera (no lidar) and routes around it via `step-multimodal`."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]

@@ -8,7 +8,7 @@
      goal — the autonomy substrate funadaiku reuses (ADR-2606010600);
   2. the zero-emission powertrain dispatch books energy across wind-assist +
      solar + hydrogen with zero fossil and hydrogen as the prime mover."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [autodrive.geom :as g]
             [autodrive.types :as t]
             [autodrive.classes :as classes]
